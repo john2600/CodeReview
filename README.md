@@ -19,7 +19,7 @@ The code is used to log different messages throughout an application. We want th
 
 6. Method is receiving several parameters and some of them are Boolean that means that the application will have more responsibility because Boolean has two possible values true or false and there are 3 parameters as boolean type that means the method needs to make 6 validations or checking and the good practice is that the method only should have one responsibility no more than one.
 
-7  Method is not following the single responsibility principle because it's running several tasks that belongs to  logging on file, logging on console and save on database that means that method is doing more than one responsibility and getting tight coupled.
+7. Method is not following the single responsibility principle because it's running several tasks that belongs to  logging on file, logging on console and save on database that means that method is doing more than one responsibility and getting tight coupled.
 
 8. Flags are used by the application in several times and that's hard to maintain the application or make some changes without break it. It's better avoid the flags.
 
