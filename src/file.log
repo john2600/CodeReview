@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-10-04T21:26:11</date>
+  <millis>1570217171502</millis>
+  <sequence>2</sequence>
+  <logger>Logger</logger>
+  <level>WARNING</level>
+  <class>com.codereview.logger.FileLogger</class>
+  <method>lambda$writeMessagetoFile$0</method>
+  <thread>1</thread>
+  <message>October 4, 2019 My Message...</message>
+</record>
+<record>
+  <date>2019-10-04T21:26:11</date>
+  <millis>1570217171506</millis>
+  <sequence>3</sequence>
+  <logger>Logger</logger>
+  <level>SEVERE</level>
+  <class>com.codereview.logger.FileLogger</class>
+  <method>lambda$writeMessagetoFile$0</method>
+  <thread>1</thread>
+  <message>October 4, 2019 My Message...</message>
+</record>
+</log>
